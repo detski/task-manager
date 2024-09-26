@@ -1,0 +1,34 @@
+html {
+    height: 100%;
+ }
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(image/background.png);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width:75%;
+}
+
+h1, h2 {
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+
+a{
+margin-top: 30px;
+    }
